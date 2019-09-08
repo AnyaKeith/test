@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header {
+    background: saddlebrown;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation__link {
+    color: white;
+}
+
+nav {
+    border: 1px solid #000;
+    background: darkcyan;
+}
+
+nav a {
+    color: fuchsia;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.special-heading {
+    color: greenyellow;
+}
+
+#another {
+    background: red;
+    /* padding: 30px; */
+    /* padding: 30px 20px 10px 5px; */
+    /* верх, право, низ, лево */
+    /* padding: 30px 20px 10px; */
+    /* верх, право, низ */
+    /* padding: 30px 20px; */
+    /* padding-top: 20px;
+    padding-right: 20px; */
+    padding-bottom: 60px;
+    /* верх-низ, право-лево */
+    margin: 0 auto;
+    margin: 30px;
+}
+
+.list,
+.ordered-list {
+    margin-left: 30px;
+}
+
+
+/* body {
+    background: fuchsia;
+} */
