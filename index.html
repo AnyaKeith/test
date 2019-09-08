@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>This is Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- This is a comment -->
+    <header class="header">
+        <div class="header-container header-flex">
+            <a href="index.html">
+                <h1 style="display: none">TravelW</h1>
+                <img src="https://www.robinwieruch.de/logo.svg" alt="Here is must be a logo" width=80 height=40>
+            </a>
+
+            <nav>
+                <a id="important__link " class="navigation__link" href="#boom">Boom</a>
+                <a class="navigation__link" href="#about">About</a>
+                <a class="navigation__link" href="#another">Another</a>
+                <a class="navigation__link" href="#uploader">Uploader</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- <section id="boom"> -->
+        <div class="main-container">
+
+
+            <h2>This is boom</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, veniam nobis? Quasi consequatur similique dolorem, harum voluptates architecto sed porro laboriosam fuga eaque soluta tenetur ratione voluptatibus vitae nesciunt a debitis quisquam
+                commodi ut eum. Ad ducimus voluptates, minus necessitatibus repellendus iure ea consequuntur corporis sint possimus, assumenda earum similique cum molestiae inventore animi. Aut, aliquam! Consequatur quos esse officia ipsum eligendi, voluptate
+                voluptatum odio, cupiditate, odit delectus vel nam. Nam inventore atque architecto ipsam natus praesentium repellat libero molestias animi ab expedita voluptates esse, nulla dignissimos ipsum ipsa quas alias, est odit velit dolor ad doloremque
+                culpa! Accusantium ab nobis rem pariatur debitis deleniti consequuntur provident blanditiis. Temporibus eos deleniti aut blanditiis corrupti nostrum consequatur placeat autem est quo!</p>
+            </section>
+
+            <section id="about">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis facere placeat aliquid accusantium, cum perferendis sint fugiat voluptas. Neque possimus provident distinctio voluptate facilis voluptatibus, dicta magnam quis. At repudiandae
+                    sint velit. Velit quasi quo alias iste cumque quidem voluptate vero perspiciatis et architecto! Aut doloremque animi, omnis voluptatem voluptate, quasi iure nobis sunt dolor tempore maiores repellendus? Qui assumenda officia ex eum
+                    at necessitatibus eligendi ipsum illo nesciunt eius, exercitationem pariatur amet dicta et accusantium. Incidunt iure, molestiae obcaecati eligendi nam et sit quos officia doloribus excepturi exercitationem neque dolor inventore impedit
+                    sunt odio hic possimus magnam animi tempore!</p>
+            </section>
+
+            <section id="another">
+                <h2 class="special-heading">Another</h2>
+                <ul class="list">
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
+                    <li>Forth</li>
+                    <li>Fifth</li>
+                </ul>
+                <h6>12fgdh</h6>
+                <ol class="ordered-list">
+                    <li>Hello</li>
+                    <li>Dear</li>
+                    <li>Friend</li>
+                    <li>Stay</li>
+                    <li>Aqui</li>
+                </ol>
+            </section>
+
+            <section id="upload-image">
+                <h2 class="special-heading my-new-class">Upload Image Section</h2>
+                <input type="file" onchange="previewFile()"><br>
+                <div class="good" style="display: inline-block; width: 700px; height: 700px; color: red;">
+                    Hello world!
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <ul class="links">
+                <li>
+                    <a href="#boom">Boom</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#another">Another</a>
+                </li>
+                <li>
+                    <a href="#uploader">Uploader</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- <script src="./js/app.js"></script> -->
+
+    <!-- <script>
+        function previewFile() {
+          var preview = document.querySelector('.good');
+          var file    = document.querySelector('input[type=file]').files[0];
+          var reader  = new FileReader();
+
+
+          reader.addEventListener("load", function () {
+            preview.style.backgroundImage = `url(${reader.result})`;
+            preview.style.backgroundPosition = "center";
+            preview.style.backgroundRepeat = "no-repeat";
+            preview.style.backgroundSize = "cover";
+          }, false);
+
+          if (file) {
+            reader.readAsDataURL(file);
+          }
+        }
+    </script> -->
+</body>
+
+</html>
